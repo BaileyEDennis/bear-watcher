@@ -1,15 +1,10 @@
-import { bearsArray } from "../../helpers/data/bearsArray.js";
+// import { bearsArray } from "../../helpers/data/bearsArray.js";
 
-const attemptedTally = (array, index) =>{
-
-    $('#attempted').on('click', ()=>
-    bearsArray.attempted++)
-    $('#attempt-${index}').append(
+// const attemptedTally = () => {
+//     $('#attempted').on('click', () =>
+//         console.log(e.target.value)
         
-    )
-}
+//     )
+// }
 
-
-
-
-export { attemptedTally }
+// export { attemptedTally }

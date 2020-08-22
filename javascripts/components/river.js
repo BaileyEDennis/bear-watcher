@@ -1,4 +1,5 @@
 import { bearsArray } from "../../helpers/data/bearsArray.js";
+import { attemptedTally } from "../components/fishTally.js";
 
 const makeRiver = () => {
   $("#river").html("");

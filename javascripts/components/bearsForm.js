@@ -1,5 +1,6 @@
-import { addBears } from './addBears.js'
+import { addBears } from './addBears.js';
 import { makeRiver } from './river.js';
+import { attemptedTally } from './fishTally.js';
 
 
 const makeBearsForm = () => {
@@ -31,5 +32,5 @@ const makeBearsForm = () => {
     makeRiver();
 
 }
-
+attemptedTally();
 export { makeBearsForm }
